@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery Feature RENDER Gallery Component 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container"
+    style="height: 100vh;"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9"
+    >
+      <h1 />
+      <ul
+        class="MuiGridList-root"
+        style="margin: -2px;"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3"
+    >
+      <ul
+        class="MuiList-root MuiList-padding"
+      />
+      <div
+        class="MuiTableContainer-root"
+      >
+        <table
+          class="MuiTable-root"
+        >
+          <tbody
+            class="MuiTableBody-root"
+          >
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                Url
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              />
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                Width
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              />
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                Height
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              />
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                XResolution
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              />
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                YResolution
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

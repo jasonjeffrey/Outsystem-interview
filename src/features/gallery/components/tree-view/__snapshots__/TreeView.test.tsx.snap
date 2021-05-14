@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TreeView Component RENDERS component with 1 TreeViewItem 1`] = `
+<DocumentFragment>
+  <ul
+    class="MuiList-root MuiList-padding"
+  >
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+      data-testid="test"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemText-root"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          test
+        </span>
+      </div>
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+        />
+      </svg>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`TreeView Component RENDERS component without any TreeViewItems 1`] = `
+<DocumentFragment>
+  <ul
+    class="MuiList-root MuiList-padding"
+  />
+</DocumentFragment>
+`;

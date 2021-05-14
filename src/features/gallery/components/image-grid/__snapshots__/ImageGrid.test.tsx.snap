@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageGrid Component RENDERS component with 1 GridItem 1`] = `
+<DocumentFragment>
+  <ul
+    class="MuiGridList-root"
+    style="margin: -2px;"
+  >
+    <li
+      class="MuiGridListTile-root"
+      data-testid="0"
+      style="width: 33.333333333333336%; height: 164px; padding: 2px;"
+    >
+      <div
+        class="MuiGridListTile-tile"
+      >
+        <img
+          alt=""
+          src="http://example.com/test.jpg"
+        />
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`ImageGrid Component RENDERS component with 1 GridItem which is selected 1`] = `
+<DocumentFragment>
+  .c0 {
+  border: 1px solid red;
+}
+
+<ul
+    class="MuiGridList-root"
+    style="margin: -2px;"
+  >
+    <li
+      class="MuiGridListTile-root c0"
+      style="width: 33.333333333333336%; height: 164px; padding: 2px;"
+    >
+      <div
+        class="MuiGridListTile-tile"
+      >
+        <img
+          alt=""
+          src="http://example.com/test.jpg"
+        />
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`ImageGrid Component RENDERS component without any GridItems 1`] = `
+<DocumentFragment>
+  <ul
+    class="MuiGridList-root"
+    style="margin: -2px;"
+  />
+</DocumentFragment>
+`;
